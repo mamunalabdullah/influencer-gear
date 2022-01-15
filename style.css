@@ -321,6 +321,9 @@ footer h3, p{
     .collection-items{
         grid-template-columns: repeat(2, 1fr);
     }
+    .collection-item{
+        padding: 0;
+    }
     .featured-products{
         justify-content: space-around;
     } 
