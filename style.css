@@ -79,6 +79,10 @@ nav a{
     color: #fff;
     font-size: 16px;
     font-weight: 700;
+    transition: scale 8s linear;
+}
+.link-button:hover{
+    transform: scale(1.5);
 }
 .fa-arrow-right{
     margin-left: 10px;
@@ -266,5 +270,40 @@ footer h3, p{
     } 
     .collection-items{
         grid-template-columns: repeat(1, 1fr);
+    }
+    .featured-products{
+        justify-content: space-around;
     } 
+    .featured-img{
+        width: 40%;
+    }
+    .featured-img img{
+        width: 70%;
+    }
+    .featured-content{
+        width: 40%;
+    }
+}
+
+/* for tablet devices */
+
+@media only screen and (min-width: 668px) and (max-width: 992px) {
+    .container{
+        width: 100%;
+    }
+    .collection-items{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .featured-products{
+        justify-content: space-around;
+    } 
+    .featured-img{
+        width: 40%;
+    }
+    .featured-img img{
+        width: 70%;
+    }
+    .featured-content{
+        width: 40%;
+    }
 }
