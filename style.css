@@ -94,11 +94,15 @@ nav a{
     flex: 1;
     margin-left: 50px;
 }
+.bottom-img img:hover{
+    transform: rotate(360deg);
+}
 .bottom-img img{
     width: 80%;
     background-image: url(./img/images/Circle\ design.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    transition: 3s linear;
 }
 
 /* partnar area start */
